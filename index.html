@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car Game</title>
+</head>
+<link rel="stylesheet" href="./css/main.css">
+<body>
+    
+    <div class="score"></div>
+    <div class="game">
+        
+        <div class="startScreen">
+            <form>
+                سرعت بازی را انتخاب کنید :
+                <select name="Select_speed" id="gamespeed">
+                    <option value="5">کند</option>
+                    <option value="8">متوسط</option>
+                    <option value="11">سریع</option>
+                    <option value="18">خیلی سریع</option>
+                </select>
+                <button type="button" id="btn" onclick="start()">شروع</button>
+            </form>
+           
+        </div>
+        <div class="gameArea"></div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
