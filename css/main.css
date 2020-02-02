@@ -1,0 +1,106 @@
+
+@font-face {
+  font-family: 'myVazir';
+  src: url('../font/Vazir.woff2') format('woff2'),
+         url('../font/Vazir.woff') format('woff'),
+         url('../font/Vazir.eot') format('eot'),
+         url('../font/Vazir.ttf') format('truetype');
+}
+
+
+.hide
+{
+    display: none;
+}
+
+.car, .enemy
+{
+     position: absolute;
+     bottom: 100px;
+     margin: auto;
+     left: 200px;
+     width: 50px;
+     height: 100px;
+     
+     background-color: white;
+     font-size: 2em;
+     text-align: center;
+     vertical-align: middle;
+     background-image: url("../img/car2.png");
+     background-size: cover;
+
+}
+
+.gameArea
+{
+    background-color: black;
+    width: 400px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin : auto;
+    box-shadow: 0px 2px 62px 0px rgba(36,34,36,0.48);
+}
+
+.line
+{
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 195px;
+    background-color: white;
+
+
+}
+
+.score
+{
+
+    background-color: #102511 ;
+    height: 70px;
+    text-align: center;
+    color : white;
+    font-size: 1.4em;
+    font-family: myVazir;
+    direction: rtl;
+    padding: 5px;
+}
+
+.startScreen
+{
+    text-align: center;
+    border: 1px solid darkgreen;
+    padding: 15px;
+    margin: auto;
+    width:400px;
+    font-family: myVazir;
+    font-size: 14px;
+    direction: rtl;
+    box-shadow: 0 5px 6px -3px forestgreen;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    
+}
+
+#gamespeed
+{
+    font-family: myVazir;
+    font-size: 14px;
+}
+
+#btn
+{
+    background-color: darkslategray;
+    color: lightgreen;
+    font-family: myVazir;
+    font-size: 14px;
+    width: 60px;
+}
+
+body
+{
+    background-image: linear-gradient(-90deg,#deffd5,#39ac3c);
+    
+}
+
